@@ -17,20 +17,13 @@
 .nav-link:hover{
     color:orangered;
 }
-small-img {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 3px solid white;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+
+
 </style>
 </head>
 <body>
-    <section style="background-image: url(image/carousel-1.jpg);  background-repeat: repeat;
-            background-size: cover; height: 500px;" > 
+    <section style=" background-image: url(image/carousel-1.jpg);  background-repeat: no-repeat;
+            background-size: cover; height: 600px;  position: relative; width: 100%;" > 
     
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container" >
@@ -44,7 +37,7 @@ small-img {
                         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-                        <li class="nav-item dropdown">
+                        
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
                                 <ul class="dropdown-menu">
@@ -69,12 +62,12 @@ small-img {
         <div class="container text-center hero-content" style="padding: 20px;">
             <h1 class="fw-bold">Contact Us</h1>
             <div class="d-flex flex-column flex-md-row gap-2 justify-content-center" style="display: contents;">
-                <a href="index.html" class="btn btn-warning">Home <i class="bi bi-arrow-right-circle-fill"></i></a>
+                <button href="index.html" class="btn btn-warning">Home <i class="bi bi-arrow-right-circle-fill"></i></button>
                 <a href="#" class="btn btn-warning">Pages <i class="bi bi-arrow-right-circle-fill"></i></a>
                 <a href="CONTACT.html" class="btn btn-warning">Contact <i class="bi bi-arrow-right-circle-fill"></i></a>
             </div>
         </div>
-        <!-- Overlay for better text readability over the background image -->
+        
         <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
     </section>
 </section>

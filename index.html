@@ -18,10 +18,10 @@
             color: white;
             text-align: center;
             padding: 150px 0;
-            background-image: url('/asserts/image/carousel-1.jpg');
+            background-image: url('asserts/image/finallogos.jpg');
             background-size: cover;
             background-repeat: no-repeat;
-            height: 700px;
+            height: 1200px;
         }
         .hero-section::before {
             content: "";
@@ -50,16 +50,9 @@
             color: white;
         }
 
-        /* About Us Section */
-        .about-section {
-            padding: 50px 0;
-        }
-        .about-section h2 {
-            color: #333;
-        }
-        .about-section p {
-            color: #555;
-        }
+       
+
+
 
         /* Buttons */
         .btn-warning {
@@ -80,11 +73,8 @@
             color: rgb(223, 74, 15);
         }
 
-        /* Image Styles */
-        .about-section img {
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+        
+      
         .small-img {
             position: absolute;
             top: -20px;
@@ -95,7 +85,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-        /* Services Section */
+          
+         
         .pqr {
             background-image: url('/asserts/image/www.jpg');
             height: 500px;
@@ -129,30 +120,16 @@
             padding: 10px;
         }
 
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .about-section {
-                text-align: center;
-            }
-            .small-img {
-                position: static;
-                margin: 20px auto;
-            }
-        }
-
-        ul {
-            border-color: #ff9800;
-        }
+   
+       
     </style>
 </head>
-<body>
+<body><!--section 1-->
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <img class="avg" src="/asserts/image/Copy of finallogo.png" alt="Logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
@@ -173,8 +150,9 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero-section d-flex align-items-center justify-content-center"  id="home">
+    <!-- Hero Section --><!--section 2-->
+    <section class="hero-section d-flex align-items-center justify-content-center"  id="home" style="background-image: url('/asserts/image/carousel-1.jpg'); width: 100%; background-repeat: repeat; background-size: cover;
+            height: 1800px;">
         <div class="container text-center hero-content">
             <h1 class="fw-bold">From Our Kitchen to Your Table, Fresh Every Day</h1>
             <p>Enjoy the goodness of fresh, flavorful food delivered straight to you.</p>
@@ -182,8 +160,8 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="container my-5" id="dee">
+    <!-- About Section --><!--section 3-->
+    <section class="container my-5" id="dee" >
         <div class="row align-items-center">
             <div class="col-md-6 position-relative">
                 <img src="/asserts/image/about-1.jpg" class="img-fluid rounded shadow" alt="Food" style="height: 500px; width: 500px;">
@@ -202,12 +180,12 @@
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Services Section4 -->
     <section id="aws" style="background-color: blanchedalmond; height: 800px;">
         <h5 style="color: orangered; text-align: center;">Our Services</h5>
         <h3 style="text-align: center;">Discover a variety of dishes crafted with care</h3>
         <div class="container mt-3">
-            <div class="row justify-content-center" style="margin-right: 25px;">
+            <div class="row justify-content-center" style="margin-right: 25px; ">
                 <button class="col-sm-2 btn" style="border: 1px solid brown; color: white; background-color: orangered;">All</button>
                 <button class="col-sm-2 btn" style="border: 1px solid brown; color: orangered;">Vegetarian</button>
                 <button class="col-sm-2 btn" style="border: 1px solid brown; color: orangered;">Beverages</button>
@@ -259,7 +237,7 @@
         </div>
     </section>
 
-    <!-- Services Details Section -->
+    <!-- Services Details Section  section 5-->
     <section id="poi">
         <h1 style="text-align: center;">Learn More About Our Services</h1>
         <div class="container mt-3 d-flex justify-content-center gap-4" style="padding-left: 0;">
@@ -290,7 +268,7 @@
         </div>
     </section>
 
-    <!-- Journey Section -->
+    <!-- Journey Section   section 6-->
     <section class="pqr">
         <h2>A Journey of Flavors, Crafted with Passion</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quos labore sint, culpa reprehenderit pariatur earum sit ea officia sunt, voluptate esse, beatae cumque cum amet veritatis dignissimos quia quod.</p>
@@ -298,7 +276,7 @@
         <button class="btn btn-secondary" style="margin: 20px; padding: 10px;">Create Now</button>
     </section>
 
-    <!-- Team Section -->
+    <!-- Team Section  7-->
     <section style="height: 500px; background-color: aliceblue;">
         <h5 style="color: orangered; text-align: center; padding: 20px; border-radius: 30px;">Team Members</h5>
         <div class="container">
@@ -327,7 +305,7 @@
         </div>
     </section>
 
-    <!-- Testimonial Section -->
+    <!-- Testimonial Section  section 8-->
     <section class="testimonial-section">
         <h6 class="text-warning">Feedbacks</h6>
         <h2 class="fw-bold">Trusted By Thousands Of People</h2>
@@ -347,7 +325,7 @@
                     <img src="/asserts/image/Copy of testimonial-3.jpg" class="testimonial-img" alt="Michael Smith">
                     <p class="text-muted">"One of the best meals I've ever had! Highly recommend to anyone looking for an authentic taste."</p>
                     <em>Michael Smith</em>
-                </div>
+                </div>carousel-item active
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -360,7 +338,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer  section 9 --> 
     <section style="background-color: rgb(8, 1, 44);">
         <div class="container py-5">
             <div class="row">
